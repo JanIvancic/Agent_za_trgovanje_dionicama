@@ -33,7 +33,6 @@ def fetch_stock_data(symbol):
     stock = yf.Ticker(symbol)
     stock_data = stock.history(interval='1m', period='7d')
     stock_data.sort_index(inplace=True)
-    #print(stock_data)
     return stock_data
 
 
