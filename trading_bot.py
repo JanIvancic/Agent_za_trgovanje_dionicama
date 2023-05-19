@@ -143,6 +143,3 @@ if __name__ == '__main__':
         if check_time_and_sell():
             print("Tržište se zatvara za 5 minuta, prodajem sve pozicije.")
             break
-
-
-
